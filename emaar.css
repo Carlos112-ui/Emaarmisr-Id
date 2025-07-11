@@ -1,0 +1,202 @@
+body {
+    background: #f8f8f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.title {
+    text-align: center;
+}
+.container {
+  width: fit-content;
+  margin: auto;
+  background-color: lightslategray;
+}
+
+.badge-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 0 0 32px 0;
+    position: relative;
+    min-height: 95vh;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    position: relative;
+}
+
+.back-arrow {
+    position: absolute;
+    left: 24px;
+    font-size: 24px;
+    color: #444;
+    cursor: pointer;
+}
+
+.badge-title {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.profile-bg {
+    background: #f2f4f7;
+    border-radius: 50%;
+    width: 250px;   /* Increased from 220px */
+    height: 250px;  /* Increased from 220px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profile-pic-wrapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #bdbdbd;
+    overflow: visible; /* Allow badge to overflow */
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+
+.info-bar {
+    display: flex;
+    background: #76f0a7;
+    border-radius: 8px;
+    margin: 16px 16px 0 16px;
+    padding: 12px 0;
+    justify-content: space-between;
+}
+
+.info-block {
+    flex: 1;
+    text-align: center;
+}
+
+.info-label {
+    font-size: 14px;
+    color: #333;
+   
+}
+
+.info-value {
+    font-size: 16px;
+    color: #222;
+   
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.unit-section {
+    background: #f5f8fa;
+    border-radius: 0 0 16px 16px;
+    margin: 0 16px;
+    padding: 16px 0 8px 16px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.unit-section > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.unit-label {
+    font-size: 14px;
+    color: #333;
+    margin-right: 8px;
+}
+
+.unit-value {
+    font-size: 18px;
+    color: #222;
+    font-weight: 350;
+    margin-right: auto;
+    font-weight:bold; 
+}
+
+.unit-icon {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-right: 16px;
+    margin-left: auto; /* This pushes the icon to the right */
+}
+
+.open-gate-btn {
+    display: block;
+    width: 90%;
+    margin: 24px auto 0 auto;
+    padding: 16px 0;
+    background: #666;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+
+.open-gate-btn:hover {
+    background: #444;
+}
+
+.warning {
+    text-align: center;
+    color: #444;
+    font-size: 14px;
+    margin: 18px 24px 0 24px;
+}
+
+.emaar-logo {
+    text-align: center;
+    font-size: 28px;
+    color: #444;
+    margin-top: 32px;
+    letter-spacing: 2px;
+    font-family: 'Georgia', serif;
+}
+
+.misr {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #888;
+}
